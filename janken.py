@@ -1,10 +1,12 @@
 
+import random as r
+
 you_count = 0
 for a in range(3):
     print(f'----ラウンド{a+1}----')
     n = 0
     you = 0
-    
+    enemy = r.randrange(1,4)
     while n<1:
     you = int(input('----------------\nグー : 1\nチョキ : 2\n パー : 3\nあなたの手 >>'))
     if you > 3 or you < 1:
