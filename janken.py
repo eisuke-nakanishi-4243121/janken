@@ -12,7 +12,7 @@ for a in range(3):
          print('半角数字1~3')
       elif you == enemy:
          print('あいこ\n\n----------------')
-        enemy = r.randrange(1,4)
+         enemy = r.randrange(1,4)
       else:
           n = 1
         
